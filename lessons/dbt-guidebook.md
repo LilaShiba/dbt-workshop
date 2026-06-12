@@ -3,6 +3,7 @@ title: DBT Guidebook
 layout: default
 nav_order: 3
 ---
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 # 📚 DBT Guidebook
 
