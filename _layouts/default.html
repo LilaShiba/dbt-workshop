@@ -16,32 +16,45 @@
   <main class="page">
     {{ content }}
   </main>
-  <footer class="site-footer">
-  <nav class="footer-nav">
+  <footer class="app-footer">
+  <div class="app-footer-inner">
 
-    <div class="footer-group">
-      <h4>🏠 Home</h4>
-      <a href="{{ '/' | relative_url }}">Home</a>
+    <div class="footer-brand">
+      <div class="footer-title">🧠 DBT Workshop</div>
+      <div class="footer-subtitle">Dialectical • Behavior • Therapy</div>
     </div>
 
-    <div class="footer-group">
-      <h4>📚 Lessons</h4>
-      <a href="{{ '/lessons' | relative_url }}">Lessons Index</a>
-      <a href="{{ '/lessons/dbt-skill-tracker' | relative_url }}">Skill Tracker</a>
-      <a href="{{ '/lessons/dbt-guidebook' | relative_url }}">Guidebook</a>
+    <div class="footer-grid">
+
+      <div class="footer-section">
+        <div class="footer-heading">Home</div>
+        <a href="{{ '/' | relative_url }}">Dashboard</a>
+      </div>
+
+      <div class="footer-section">
+        <div class="footer-heading">Lessons</div>
+        <a href="{{ '/lessons' | relative_url }}">Index</a>
+        <a href="{{ '/lessons/dbt-skill-tracker' | relative_url }}">Skill Tracker</a>
+        <a href="{{ '/lessons/dbt-guidebook' | relative_url }}">Guidebook</a>
+      </div>
+
+      <div class="footer-section">
+        <div class="footer-heading">Practice</div>
+        <a href="{{ '/documents/dbt-workbook' | relative_url }}">Workbook</a>
+      </div>
+
+      <div class="footer-section">
+        <div class="footer-heading">Code</div>
+        <a href="https://github.com/lilashiba/dbt-workshop">GitHub Repo</a>
+      </div>
+
     </div>
 
-    <div class="footer-group">
-      <h4>✍️ Documents</h4>
-      <a href="{{ '/documents/dbt-workbook' | relative_url }}">Workbook</a>
+    <div class="footer-bottom">
+      Built for DBT practice & reflection
     </div>
 
-    <div class="footer-group">
-      <h4>💻 Repo</h4>
-      <a href="https://github.com/lilashiba/dbt-workshop">GitHub</a>
-    </div>
-
-  </nav>
+  </div>
 </footer>
 
 </body>
