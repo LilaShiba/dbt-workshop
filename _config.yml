@@ -6,8 +6,10 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
+
+baseurl: "/dbt-workshop"
 url: "https://lilashiba.github.io"
-baseurl: "/dbt"
+
 search_enabled: true
 
 markdown: kramdown
