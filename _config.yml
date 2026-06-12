@@ -1,0 +1,19 @@
+title: Tinker CAD Studio
+description: Design • Build • Think
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+url: "https://lilashiba.github.io"
+baseurl: "/dbt"
+search_enabled: true
+
+markdown: kramdown
+highlighter: rouge
+
+color_scheme: dark
+
+aux_links:
+  GitHub Repo: https://github.com/lilashiba/tinkcab_lab

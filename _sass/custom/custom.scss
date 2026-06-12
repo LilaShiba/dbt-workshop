@@ -1,0 +1,52 @@
+/* ===== Layout polish for worksheet UI ===== */
+
+details {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+/* Open state feels active */
+details[open] {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+/* Summary styling = makes steps feel clickable */
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Text areas feel like form inputs, not raw boxes */
+textarea.persist {
+  width: 100%;
+  margin-top: 0.6rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  resize: vertical;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Focus state */
+textarea.persist:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+/* Saved state (from JS) */
+textarea.persist.saved {
+  border-color: #2ecc71;
+  box-shadow: 0 0 0 2px rgba(46, 204, 113, 0.2);
+}
+
+progress {
+  width: 300px;
+  height: 1.2rem;
+}
