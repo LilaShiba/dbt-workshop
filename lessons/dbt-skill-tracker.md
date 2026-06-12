@@ -15,11 +15,6 @@ Practice, not perfection.
 
 <div class="success-criteria-box">
 
-<p>
-Progress:
-<progress id="progress"></progress>
-<span id="count"></span>
-</p>
 
 <br>
 
@@ -216,6 +211,6 @@ Save a snapshot of everything above into your diary.
 
 
 <script src="{{ '/assets/js/persist.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/progress.js' | relative_url }}"></script>
+
 <script src="{{ '/assets/js/journal.js' | relative_url }}"></script>
 

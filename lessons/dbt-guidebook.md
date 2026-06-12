@@ -1,7 +1,7 @@
 ---
 title: DBT Guidebook
 layout: default
-nav_order: 2
+nav_order: 4
 ---
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
@@ -22,7 +22,7 @@ You can:
 
 ### 🧘 Mindfulness & General Skills
 
-[Open Page 1]({{ '/assets/pdf/dbt-skills-tracker.pdf#page=1' | relative_url }}){: .btn }
+[Open Page 1]({{ '/assets/pdf/generalSkills.pdf#page=1' | relative_url }}){: .btn }
 
 Includes:
 
@@ -38,7 +38,7 @@ Includes:
 
 ### 🌊 Distress Tolerance
 
-[Open Page 1]({{ '/assets/pdf/dbt-skills-tracker.pdf#page=1' | relative_url }}){: .btn }
+[Open Page 1]({{ '/assets/pdf/generalSkills.pdf#page=1' | relative_url }}){: .btn }
 
 Includes:
 
@@ -55,7 +55,7 @@ Includes:
 
 ### ❤️ Emotion Regulation
 
-[Open Page 2]({{ '/assets/pdf/dbt-skills-tracker.pdf#page=2' | relative_url }}){: .btn }
+[Open Page 2]({{ '/assets/pdf/generalSkills.pdf#page=2' | relative_url }}){: .btn }
 
 Includes:
 
@@ -72,7 +72,7 @@ Includes:
 
 ### 🤝 Interpersonal Effectiveness
 
-[Open Page 3]({{ '/assets/pdf/dbt-skills-tracker.pdf#page=3' | relative_url }}){: .btn }
+[Open Page 3]({{ '/assets/pdf/generalSkills.pdf#page=3' | relative_url }}){: .btn }
 
 Includes:
 
@@ -89,7 +89,7 @@ Includes:
 
 ## Open PDF
 
-[📄 Open Full Guidebook in New Tab]({{ '/assets/pdf/dbt-skills-tracker.pdf' | relative_url }}){: .btn .btn-primary }
+[📄 Open Full Guidebook in New Tab]({{ '/assets/pdf/generalSkills.pdf' | relative_url }}){: .btn .btn-primary }
 
 ---
 
@@ -98,7 +98,7 @@ Includes:
 <div style="border:1px solid #ddd; border-radius:8px; overflow:hidden;">
 
 <iframe
-    src="{{ '/assets/pdf/dbt-skills-tracker.pdf' | relative_url }}"
+    src="{{ '/assets/pdf/generalSkills.pdf' | relative_url }}"
     width="100%"
     height="1200px"
     style="border:none;">
