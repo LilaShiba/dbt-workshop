@@ -128,7 +128,7 @@ Search for any skill or browse by page.
   type="text"
   id="searchBox"
   placeholder="Search skills..."
->
+/>
 
 <div id="results"></div>
 
