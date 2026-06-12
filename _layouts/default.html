@@ -16,6 +16,33 @@
   <main class="page">
     {{ content }}
   </main>
+  <footer class="site-footer">
+  <nav class="footer-nav">
+
+    <div class="footer-group">
+      <h4>🏠 Home</h4>
+      <a href="{{ '/' | relative_url }}">Home</a>
+    </div>
+
+    <div class="footer-group">
+      <h4>📚 Lessons</h4>
+      <a href="{{ '/lessons' | relative_url }}">Lessons Index</a>
+      <a href="{{ '/lessons/dbt-skill-tracker' | relative_url }}">Skill Tracker</a>
+      <a href="{{ '/lessons/dbt-guidebook' | relative_url }}">Guidebook</a>
+    </div>
+
+    <div class="footer-group">
+      <h4>✍️ Documents</h4>
+      <a href="{{ '/documents/dbt-workbook' | relative_url }}">Workbook</a>
+    </div>
+
+    <div class="footer-group">
+      <h4>💻 Repo</h4>
+      <a href="https://github.com/lilashiba/dbt-workshop">GitHub</a>
+    </div>
+
+  </nav>
+</footer>
 
 </body>
 </html>
