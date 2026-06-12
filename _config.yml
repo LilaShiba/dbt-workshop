@@ -1,5 +1,5 @@
 title: Tinker CAD Studio
-description: Design • Build • Think
+description: Dialectical • Behavior • Therapy  
 
 remote_theme: just-the-docs/just-the-docs
 
@@ -16,4 +16,4 @@ highlighter: rouge
 color_scheme: dark
 
 aux_links:
-  GitHub Repo: https://github.com/lilashiba/tinkcab_lab
+  GitHub Repo: https://github.com/lilashiba/dbt-workshop
