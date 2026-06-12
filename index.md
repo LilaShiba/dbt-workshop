@@ -28,14 +28,14 @@ Reference explanations of DBT concepts and skills.
 [Open DBT Guidebook]({{ '/lessons/dbt-guidebook' | relative_url }}){: .btn .btn-primary }
 
 ---
-
+<!-- 
 ## ✍️ DBT Workbook
 
 Exercises and worksheets for practicing DBT skills.
 
 [Open DBT Workbook]({{ '/documents/dbt-workbook/' | relative_url }}){: .btn .btn-primary }
 
----
+--- -->
 
 ## 🌱 About
 
