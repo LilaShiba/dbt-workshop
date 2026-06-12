@@ -16,7 +16,7 @@ Dialectical Behavior Therapy (DBT) learning and practice workspace.
 
 Track your progress and monitor which skills you've practiced.
 
-[Open DBT Skill Tracker]({{ '/lessons/dbt-skill-tracker/' | relative_url }}){: .btn .btn-primary }
+[Open DBT Skill Tracker]({{ '/lessons/dbt-skill-tracker' | relative_url }}){: .btn .btn-primary }
 
 ---
 
@@ -24,7 +24,7 @@ Track your progress and monitor which skills you've practiced.
 
 Reference explanations of DBT concepts and skills.
 
-[Open DBT Guidebook]({{ '/lessons/dbt-guidebook/' | relative_url }}){: .btn .btn-primary }
+[Open DBT Guidebook]({{ '/lessons/dbt-guidebook' | relative_url }}){: .btn .btn-primary }
 
 ---
 
