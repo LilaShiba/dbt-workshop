@@ -1,7 +1,8 @@
 ---
-title: DBT Guidebook
+title: DBT Skill Tracker
 layout: default
-nav_order: 4
+parent: Home
+nav_order: 1
 ---
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
@@ -132,4 +133,3 @@ Search for any skill or browse by page.
 <div id="results"></div>
 
 <script src="{{ '/assets/js/dbt-guidebook.js' | relative_url }}"></script>
-

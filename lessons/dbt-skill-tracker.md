@@ -1,7 +1,8 @@
 ---
 title: DBT Skill Tracker
 layout: default
-nav_order: 3
+parent: Home
+nav_order: 2
 ---
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
