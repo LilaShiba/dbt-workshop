@@ -1,7 +1,8 @@
 ---
 title: Journal
 layout: default
-nav_order: 4
+parent: Home
+nav_order: 1
 ---
 
 # 📖 DBT Journal
