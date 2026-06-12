@@ -1,16 +1,16 @@
-title: 💖
-description: Dialectical • Behavior • Therapy  
+title: DBT Workshop
+description: Dialectical • Behavior • Therapy
 
 remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
 
-
 baseurl: "/dbt-workshop"
 url: "https://lilashiba.github.io"
 
 search_enabled: true
+search_button: true
 
 markdown: kramdown
 highlighter: rouge
@@ -19,3 +19,6 @@ color_scheme: dark
 
 aux_links:
   GitHub Repo: https://github.com/lilashiba/dbt-workshop
+
+just_the_docs:
+  nav_sort: case_sensitive
