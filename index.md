@@ -28,6 +28,13 @@ Reference explanations of DBT concepts and skills.
 [Open DBT Guidebook]({{ '/lessons/dbt-guidebook' | relative_url }}){: .btn .btn-primary }
 
 ---
+
+## 🧘 Mindfulness 
+Mindfulness exercises, grounding techniques, and guided practices. 
+[Open Mindfulness Guide]({{ '/lessons/mindfullness' | relative_url }}){: .btn .btn-primary }
+
+---
+
 <!-- 
 ## ✍️ DBT Workbook
 
